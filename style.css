@@ -1,0 +1,49 @@
+:root {
+    --font-color:black;
+    --h1:3.6rem;
+    --h2:2rem;
+    --h3:1.8rem;
+    --h4:1.5rem;
+    --h1-color:rgba(82, 82, 82, 0.977);
+    --h3-color:rgb(247, 151, 72);
+}
+
+body {
+    color: rgba(43, 42, 42, 0.977);
+    background-color: rgb(224, 224, 224);
+}
+h1 {
+    font-size: var(--h1);
+    color: var(--h1-color);
+    text-decoration: underline;
+}
+h2 {
+    font-size: var(--h2);
+}
+
+h3 {
+    font-size: var(--h3);
+    color: var(--h3-color);
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+a.button{
+    background-color:rgb(247, 151, 72) ;
+    color: whitesmoke;
+    transition: 0.3s;
+    padding: 1.5rem;
+    text-decoration: none;
+}
+
+a.button:hover{
+    background-color:rgb(6, 6, 6) ;
+    color: rgb(241, 241, 241);
+    padding: 1.7rem;
+    
+}
+.gap-medium{
+    margin-bottom: 4rem;
+}
